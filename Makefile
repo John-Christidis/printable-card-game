@@ -347,7 +347,7 @@ help-me-start:
 	@echo "2. Encrypt the private keys you will be using with the following command"
 	@echo "    cast wallet import [YOUR-KEY-NAME] --interactive"
 	@echo "Do that process for Anvil, Sepolia and Amoy accounts"
-	@echo "3. Make a env file"
+	@echo "3. Make a .env file"
 	@echo "4. Add the following variables to the env"
 	@echo "=================================================================="
 	@echo "============================ANVIL================================="
