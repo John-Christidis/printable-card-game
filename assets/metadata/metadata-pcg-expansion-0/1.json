@@ -1,0 +1,19 @@
+{
+    "name": "Borgi",
+    "description": "Sensor that senses stuff!",
+    "image": "ipfs://<CID>/1.png",
+    "attributes": [
+        {
+            "trait_type": "Expansion",
+            "value": 0
+        },
+        {
+            "trait_type": "Power",
+            "value": 2
+        },
+        {
+            "trait_type": "Element",
+            "value": "Sensor"
+        }
+    ]
+}

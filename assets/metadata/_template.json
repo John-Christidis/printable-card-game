@@ -1,0 +1,19 @@
+{
+    "name": "Name",
+    "description": "Desc",
+    "image": "ipfs://<CID>/{id}.png",
+    "attributes": [
+        {
+            "trait_type": "Expansion",
+            "value": 0
+        },
+        {
+            "trait_type": "Power",
+            "value": 0
+        },
+        {
+            "trait_type": "Element",
+            "value": "string"
+        }
+    ]
+}

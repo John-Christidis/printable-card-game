@@ -1,0 +1,19 @@
+{
+    "name": "Worgi",
+    "description": "Always waits!",
+    "image": "ipfs://<CID>/4.png",
+    "attributes": [
+        {
+            "trait_type": "Expansion",
+            "value": 0
+        },
+        {
+            "trait_type": "Power",
+            "value": 5
+        },
+        {
+            "trait_type": "Element",
+            "value": "Waitor"
+        }
+    ]
+}

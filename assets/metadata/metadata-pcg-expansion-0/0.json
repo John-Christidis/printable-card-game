@@ -1,0 +1,19 @@
+{
+    "name": "Gorgi",
+    "description": "Activator that activates stuff!",
+    "image": "ipfs://<CID>/0.png",
+    "attributes": [
+        {
+            "trait_type": "Expansion",
+            "value": 0
+        },
+        {
+            "trait_type": "Power",
+            "value": 3
+        },
+        {
+            "trait_type": "Element",
+            "value": "Activator"
+        }
+    ]
+}

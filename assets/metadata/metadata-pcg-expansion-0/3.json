@@ -1,0 +1,15 @@
+{
+    "name": "Thorgi",
+    "description": "Plain!",
+    "image": "ipfs://<CID>/3.png",
+    "attributes": [
+        {
+            "trait_type": "Expansion",
+            "value": 0
+        },
+        {
+            "trait_type": "Power",
+            "value": 4
+        }
+    ]
+}
