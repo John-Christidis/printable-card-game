@@ -165,7 +165,7 @@ send-wrapper-fulfill-randomness:
 # PCG Expansions call functions
 call-pcg-balance-of:
 	@PCG_CONTRACT_ADDRESS=$$(cast call --rpc-url $(RPC_URL) $(PCG_FACTORY) "getPcg(uint256)(address)" $(PCG_ID)); \
-	cast call --rpc-url $(RPC_URL) $$PCG_CONTRACT_ADDRESS "balanceOf(address, uint256)(uint256)" $(ACCOUNT) $(CARD_ID)
+	cast call --rpc-url $(RPC_URL) $$PCG_CONTRACT_ADDRESS "balanceOf(address, uint256)(uint256)" $(SENDER) $(CARD_ID)
 
 call-pcg-get-number-of-mintable-cards:
 	@PCG_CONTRACT_ADDRESS=$$(cast call --rpc-url $(RPC_URL) $(PCG_FACTORY) "getPcg(uint256)(address)" $(PCG_ID)); \
