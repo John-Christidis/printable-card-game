@@ -413,7 +413,7 @@ help-me-start:
 
 
 install-deps:
-	foundry-rs/forge-std --no-commit
+	forge install foundry-rs/forge-std --no-commit
 	forge install smartcontractkit/chainlink-brownie-contracts@1.1.1 --no-commit
 	forge install OpenZeppelin/openzeppelin-contracts@v5.0.2 --no-commit
 
